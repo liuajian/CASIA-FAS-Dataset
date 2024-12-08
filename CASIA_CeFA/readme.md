@@ -1,8 +1,8 @@
 # Paper: CASIA-SURF CeFA: A Benchmark for Multi-modal Cross-ethnicity Face Anti-spoofing
 
-# Label: live:0/fake:1
+### Label: live:0/fake:1
 
-# Protocol:
+### Protocol:
 ```
 p11:(AF&AF-CA/EA)
   Train:800(V)/71,915(I)
@@ -53,9 +53,9 @@ p45:(EA&EA@Screen-AF/CA@Cloth)
   Test:2,323(V)/153,930(I)
 ```
 
-# Modality:, color, depth, ir
+### Modality:, color, depth, ir
 
-# Formta:
+### Formta:
 ```
 Datasets: Specifically for 3 ethnic datasets
 Format: Race/Race-ID-IdCard/Race_ID_AcqDevice_Session_PAI
@@ -94,9 +94,9 @@ Example: mean:Silicone-Mask/ID/SiliconeMask_ID_Dresses_Glasses_D435i_Indoor_Alon
 Format:       Silicone-Mask/001/2_001_1_1_2_1_3
 ```
 
-# Acknowledgements
+### Acknowledgements
 If you use this database, please cite the following publication:
-Dataset:
+## Dataset:
 @inproceedings{liu2021casia,
   title={Casia-surf cefa: A benchmark for multi-modal cross-ethnicity face anti-spoofing},
   author={Liu, Ajian and Tan, Zichang and Wan, Jun and Escalera, Sergio and Guo, Guodong and Li, Stan Z},
@@ -105,7 +105,7 @@ Dataset:
   year={2021}
 }
 
-Challenge:
+## Challenge:
 @article{liu2021cross,
   title={Cross-ethnicity face anti-spoofing recognition challenge: A review},
   author={Liu, Ajian and Li, Xuan and Wan, Jun and Liang, Yanyan and Escalera, Sergio and Escalante, Hugo Jair and Madadi, Meysam and Jin, Yi and Wu, Zhuoyuan and Yu, Xiaogang and others},
@@ -117,7 +117,7 @@ Challenge:
   publisher={Wiley Online Library}
 }
 
-# Contact
+### Contact
 Email: ajian.liu@ia.ac.cn, ajianliu92@gmail.com
 Homepage: https://liuajian.github.io/
 Github: https://github.com/liuajian
