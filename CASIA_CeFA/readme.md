@@ -1,12 +1,9 @@
-========================================================================================
-Paper:
-CASIA-SURF CeFA: A Benchmark for Multi-modal Cross-ethnicity Face Anti-spoofing
-========================================================================================
+# Paper: CASIA-SURF CeFA: A Benchmark for Multi-modal Cross-ethnicity Face Anti-spoofing
 
-Label
-  live:0
-  fake:1
-  
+# Label: live:0/fake:1
+
+# Protocol:
+```
 p11:(AF&AF-CA/EA)
   Train:800(V)/71,915(I)
   Dev:400(V)/36,298(I)
@@ -54,28 +51,23 @@ p45:(EA&EA@Screen-AF/CA@Cloth)
   Train:400(V)/35,952(I)
   Dev:200(V)/18,509(I)
   Test:2,323(V)/153,930(I)
+```
 
-Modality:
-  color
-  depth
-  ir
-========================================================================================
+# Modality:, color, depth, ir
 
+# Formta:
+```
 Datasets: Specifically for 3 ethnic datasets
 Format: Race/Race-ID-IdCard/Race_ID_AcqDevice_Session_PAI
     Race: 1:AF 2:CA 3:EA
-    ID: 000-599
+    ID: 000-499
     IdCard: 
         (1) The first four digits represent the year of birth; 
         (2) The penultimate digit represents gender, with even numbered females (F) penultimate and odd numbered males (M).
     AcqDevice: 1:rssdk 2:mp4  3:bag 4:MOV
     Session(environment): 1:indoor 2:outdoor 3:random
     PAI: 1:Real 2:Cloth 3:Pic(phtoto) 4:Screen
-    Note that Africa does not have IdCard
 Example: EA/EA-012-198006250024/1_000_1_1_1(P1_P2_P3_P4_P5). Age:1980, Gender: F.
-Info(CeFA-Race.zip):73.0 GB (72,998,892,250 bytes)
-Merge: zip -s 0 CeFA-Race-split.zip --out CeFA-Race.zip
-========================================================================================
 
 Datasets: 3D-Mask
 Format: 3D-Mask/ID/3DMASK_ID_If-Dresses_If-Glasses_AcqDevice_Session_AttackType
@@ -100,10 +92,9 @@ Format: Silicone-Mask/ID/SiliconeMask_ID_Dresses_If-Glasses_AcqDevice_Session_At
     AttackType(environment): 1:NoLighting 2:BackLighting 3:AlongLighting 4:SideLighting
 Example: mean:Silicone-Mask/ID/SiliconeMask_ID_Dresses_Glasses_D435i_Indoor_AlongLighting(P0,P1,P2,P3,P4,P5,P6)
 Format:       Silicone-Mask/001/2_001_1_1_2_1_3
-Info(CeFA-Mask.zip): 14.9 GB (14,885,851,707 bytes)
-=========================================================================================
+```
 
-Acknowledgements
+# Acknowledgements
 If you use this database, please cite the following publication:
 Dataset:
 @inproceedings{liu2021casia,
@@ -126,7 +117,7 @@ Challenge:
   publisher={Wiley Online Library}
 }
 
-=======================================================================
+# Contact
 Email: ajian.liu@ia.ac.cn, ajianliu92@gmail.com
 Homepage: https://liuajian.github.io/
 Github: https://github.com/liuajian
