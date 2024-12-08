@@ -4,50 +4,42 @@
 
 ### Protocol:
 ```
-p11:(AF&AF-CA/EA)
+p1.1:(AF&AF-CA/EA)
   Train:800(V)/71,915(I)
   Dev:400(V)/36,298(I)
   Test:2,723(V)/191,161(I)
-p13:(CA&CA-AF/EA)
+p1.3:(CA&CA-AF/EA)
   Train:800(V)/73,304(I)
   Dev:400(V)/37,855(I)
   Test:2,723(V)/185,833(I)
-p15:(EA&EA-AF/CA)
+p1.5:(EA&EA-AF/CA)
   Train:800(V)/71,704(I)
   Dev:400(V)/36,193(I)
   Test:2,723(V)/188,100(I)
   
-p21:(Cloth&Cloth-Screen)
+p2.1:(Cloth&Cloth-Screen)
   Train:1,800(V)/166,255(I)
   Dev:900(V)/83,499(I)
   Test:2,323(V)/151,807(I)
-p22:(Screen&Screen-Cloth)
+p2.2:(Screen&Screen-Cloth)
   Train:1,200(V)/109,632(I)
   Dev:600(V)/56,070(I)
   Test:2,923(V)/210,252(I)
 
-p31:(color&depth-ir)
-  Train:(V)/(I)
-  Dev:(V)/(I)
-  Test:(V)/(I)
-p32:(color&ir-depth)
-  Train:(V)/(I)
-  Dev:(V)/(I)
-  Test:(V)/(I)
-p33:(depth&ir-color)
-  Train:(V)/(I)
-  Dev:(V)/(I)
-  Test:(V)/(I)
+p3:(color)
+  Train:216,923(I)
+  Dev:110,346(I)
+  Test:438,764(I)
 
-p41:(AF&AF@Screen-CA/EA@Cloth)
+p4.1:(AF&AF@Screen-CA/EA@Cloth)
   Train:400(V)/36,513(I)
   Dev:200(V)/18,468(I)
   Test:2,323(V)/155,967(I)
-p43:(CA&CA@Screen-AF/EA@Cloth)
+p4.3:(CA&CA@Screen-AF/EA@Cloth)
   Train:400(V)/37,167(I)
   Dev:200(V)/19,093(I)
   Test:2,323(V)/152,717(I)
-p45:(EA&EA@Screen-AF/CA@Cloth)
+p4.5:(EA&EA@Screen-AF/CA@Cloth)
   Train:400(V)/35,952(I)
   Dev:200(V)/18,509(I)
   Test:2,323(V)/153,930(I)
@@ -96,7 +88,6 @@ Format:       Silicone-Mask/001/2_001_1_1_2_1_3
 
 ### Acknowledgements
 ```
-If you use this database, please cite the following publication:
 @inproceedings{liu2021casia,
   title={Casia-surf cefa: A benchmark for multi-modal cross-ethnicity face anti-spoofing},
   author={Liu, Ajian and Tan, Zichang and Wan, Jun and Escalera, Sergio and Guo, Guodong and Li, Stan Z},
@@ -118,8 +109,6 @@ If you use this database, please cite the following publication:
 ```
 
 ### Contact
-Email: ajian.liu@ia.ac.cn, ajianliu92@gmail.com
+Email: ajian.liu@ia.ac.cn
 Homepage: https://liuajian.github.io/
-Github: https://github.com/liuajian
-
 

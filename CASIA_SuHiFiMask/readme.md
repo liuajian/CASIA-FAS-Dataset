@@ -1,9 +1,9 @@
-=======================================================================
-Paper: 
-CASIA-SuHiFiMask: Surveillance Face Anti-spoofing
-Data decompression command: 7za x SuHiFiMask_TIFS24.7z
-After decompressing the data, place them in a folder named Data.
-========================================================================
+### Paper: CASIA-SuHiFiMask: Surveillance Face Anti-spoofing
+
+### Data decompression command: 7za x SuHiFiMask_TIFS24.7z After decompressing the data, place them in a folder named Data.
+
+### Protocol:
+```
 P1
   Train:72,217(V)/201,568(I)
   Dev:12,082(V)/40,824(I)
@@ -28,9 +28,10 @@ P3
   Train:39,370(V)/159,063(I)
   Dev:41,997(V)/89,276(I)
   Test:58,652(V)/164,557(I)
-  
-========================================================================
-Format:
+```
+
+### Format:
+```
 For the meaning of each line in the protocol txt file (taking an entry as an example), such as G05_S30_C3_E03_T20220227113320490/id_4/120_43_0.jpg,0.
 
 In the identifier G05_S30_C3_E03_T20220227113320490, the abbreviations G, S, C, E, and T actually stand for GroupID, SceneID, CameraID, EpochID, and Time, respectively. 
@@ -40,15 +41,17 @@ In the identifier G05_S30_C3_E03_T20220227113320490, the abbreviations G, S, C, 
 (4) Time records the time the video was taken. Please note that the subdirectory id_4 only represents the participant's ID for this round of shooting and is not the participant ID specified in the paper.
 
 For each image with a name such as 120_43_0.jpg, where 120 is the frame number in the video, 43 represents the participant's ID, and 0 is the category label. This is analogous to the meaning conveyed by the final number in this line, both indicating the label of the respective image.
-========================================================================
-Journals:
+```
+
+### Acknowledgements
+```
 @article{fang2023surveillance,
   title={Surveillance Face Anti-spoofing},
   author={Fang, Hao and Liu, Ajian and Wan, Jun and Escalera, Sergio and Zhao, Chenxu and Zhang, Xu and Li, Stan Z and Lei, Zhen},
   journal={IEEE Transactions on Information Forensics and Security},
   year={2023}
 }
-Conferences:
+
 @inproceedings{escalera2023surveillance,
   title={Surveillance Face Presentation Attack Detection Challenge},
   author={Fang, Hao, Liu, Ajian and Wan, Jun, Escalera, Sergio and Escalante, Hugo Jair and Lei, Zhen},
@@ -56,8 +59,9 @@ Conferences:
   pages={6360--6370},
   year={2023}
 }
+```
 
-=======================================================================
-Email: ajian.liu@ia.ac.cn, ajianliu92@gmail.com
+### Contact
+Email: ajian.liu@ia.ac.cn
 Homepage: https://liuajian.github.io/
-Github: https://github.com/liuajian
+

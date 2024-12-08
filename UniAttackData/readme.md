@@ -1,9 +1,5 @@
-=======================================================================
-Paper: 
-Unified Physical-Digital Face Attack Detection
-After decompressing the data, place them in a folder named Data.
-========================================================================
-
+### Paper: Unified Physical-Digital Face Attack Detection
+```
 UniAttackData is an extension of CASIA-SURF CeFA, achieved through digital forgery. It encompasses
 1,800 subjects from three ethnicities (such as African, East Asian, and Central Asian) and two 
 types of physical attacks (Print and Replay). For each subject, we simulate 12 types of digital
@@ -17,8 +13,10 @@ integrate the background onto the modified face.
 
 In summary, UniAttackData comprises live faces from three ethnicities, two types of print attacks in different
 settings, one playback attack, as well as 6 digital editing attacks and 6 adversarial attacks.
+```
 
-========================================================================
+### Protocol:
+```
 (1) Protocol 1 aims to evaluate the unified attack detection task. Unlike traditional single-class attack detection, 
 the unified attack data protocol encompasses both physical and digital attacks. The significant intra-class distance 
 and diverse attacks pose more challenges to algorithm design. As shown in Table-1, the training, 
@@ -60,23 +58,26 @@ Physical Attack     ----> 1
 Adversarial Attack  ----> 2
 
 Digital Attack      ----> 3
-========================================================================
+```
 
-Conferences:
+### Acknowledgements
+```
 @inproceedings{fang2024unified,
   title     = {Unified Physical-Digital Face Attack Detection},
   author    = {Fang, Hao and Liu, Ajian and Yuan, Haocheng and Zheng, Junze and Zeng, Dingheng and Liu, Yanhong and Deng, Jiankang and Escalera, Sergio and Liu, Xiaoming and Wan, Jun and Lei, Zhen},
   journal={IJCAI},
   year={2024}
 }
-Conferences:
+
 @article{yuan2024unified,
   title={Unified Physical-Digital Attack Detection Challenge},
   author={Yuan, Haocheng and Liu, Ajian and Zheng, Junze and Wan, Jun and Deng, Jiankang and Escalera, Sergio and Escalante, Hugo Jair and Guyon, Isabelle and Lei, Zhen},
   journal={CVPR Workshop},
   year={2024}
 }
-=======================================================================
-Email: ajian.liu@ia.ac.cn, ajianliu92@gmail.com
+```
+
+### Contact
+Email: ajian.liu@ia.ac.cn
 Homepage: https://liuajian.github.io/
-Github: https://github.com/liuajian
+
