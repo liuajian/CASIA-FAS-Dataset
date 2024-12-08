@@ -13,7 +13,7 @@ $DATA/
 If you have some datasets already installed somewhere else, you can create symbolic links in `$DATA/dataset_name` that point to the original data to avoid duplicate download.
 
 Datasets list:
-- [CASIA_SURF](#CASIA_SURF)              [paper](https://arxiv.org/pdf/1908.10654)
+- [CASIA_SURF](#CASIA_SURF)              [[paper]](https://arxiv.org/pdf/1908.10654)
 - [CASIA_CeFA](#CASIA_CeFA)              [paper](https://openaccess.thecvf.com/content/WACV2021/papers/Liu_CASIA-SURF_CeFA_A_Benchmark_for_Multi-Modal_Cross-Ethnicity_Face_Anti-Spoofing_WACV_2021_paper.pdf)
 - [CASIA_HiFiMask](#CASIA_HiFiMask)      [paper](https://arxiv.org/pdf/2104.06148)
 - [CASIA_SuHiFiMask](#CASIA_SuHiFiMask)  [paper](https://arxiv.org/pdf/2301.00975)
