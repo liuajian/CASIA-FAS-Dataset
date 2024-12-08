@@ -1,4 +1,4 @@
-# Paper: CASIA-SURF CeFA: A Benchmark for Multi-modal Cross-ethnicity Face Anti-spoofing
+### Paper: CASIA-SURF CeFA: A Benchmark for Multi-modal Cross-ethnicity Face Anti-spoofing
 
 ### Label: live:0/fake:1
 
@@ -95,8 +95,8 @@ Format:       Silicone-Mask/001/2_001_1_1_2_1_3
 ```
 
 ### Acknowledgements
+```
 If you use this database, please cite the following publication:
-## Dataset:
 @inproceedings{liu2021casia,
   title={Casia-surf cefa: A benchmark for multi-modal cross-ethnicity face anti-spoofing},
   author={Liu, Ajian and Tan, Zichang and Wan, Jun and Escalera, Sergio and Guo, Guodong and Li, Stan Z},
@@ -105,7 +105,6 @@ If you use this database, please cite the following publication:
   year={2021}
 }
 
-## Challenge:
 @article{liu2021cross,
   title={Cross-ethnicity face anti-spoofing recognition challenge: A review},
   author={Liu, Ajian and Li, Xuan and Wan, Jun and Liang, Yanyan and Escalera, Sergio and Escalante, Hugo Jair and Madadi, Meysam and Jin, Yi and Wu, Zhuoyuan and Yu, Xiaogang and others},
@@ -116,6 +115,7 @@ If you use this database, please cite the following publication:
   year={2021},
   publisher={Wiley Online Library}
 }
+```
 
 ### Contact
 Email: ajian.liu@ia.ac.cn, ajianliu92@gmail.com
