@@ -1,6 +1,6 @@
 # How to install datasets
 
-We suggest putting all datasets under the same folder (say `$DATA`=`CASIA_FAS_Dataset`) to ease management and following the instructions below to organize datasets to avoid modifying the source code. The file structure looks like
+We suggest putting all datasets under the same folder (say `$DATA`=`CASIA_FasData`) to ease management and following the instructions below to organize datasets to avoid modifying the source code. The file structure looks like
 
 ```
 $DATA/
@@ -268,6 +268,10 @@ Please cite the following papers in your publications if it helps your research:
   pages={6360--6370},
   year={2023}
 }
+
+# Contact
+Email: ajian.liu@ia.ac.cn
+Homepage: https://liuajian.github.io/
 
 
 
