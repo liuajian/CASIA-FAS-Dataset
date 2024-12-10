@@ -191,7 +191,7 @@ CASIA_HiFiMask/
 ```
 
 ### Citation
-  ```Shell
+```
 Please cite the following papers in your publications if it helps your research:
  
 ## CASIA-SURF
@@ -268,6 +268,7 @@ Please cite the following papers in your publications if it helps your research:
   pages={6360--6370},
   year={2023}
 }
+```
 
 # Contact
 Email: ajian.liu@ia.ac.cn
