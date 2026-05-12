@@ -1,5 +1,9 @@
-### Paper: Unified Physical-Digital Face Attack Detection
-```
+=======================================================================
+Paper: 
+Unified Physical-Digital Face Attack Detection
+After decompressing the data, place them in a folder named Data.
+========================================================================
+
 UniAttackData is an extension of CASIA-SURF CeFA, achieved through digital forgery. It encompasses
 1,800 subjects from three ethnicities (such as African, East Asian, and Central Asian) and two 
 types of physical attacks (Print and Replay). For each subject, we simulate 12 types of digital
@@ -13,14 +17,12 @@ integrate the background onto the modified face.
 
 In summary, UniAttackData comprises live faces from three ethnicities, two types of print attacks in different
 settings, one playback attack, as well as 6 digital editing attacks and 6 adversarial attacks.
-```
 
-### Protocol:
-```
+========================================================================
 (1) Protocol 1 aims to evaluate the unified attack detection task. Unlike traditional single-class attack detection, 
 the unified attack data protocol encompasses both physical and digital attacks. The significant intra-class distance 
-and diverse attacks pose more challenges to algorithm design. As shown in Table-1, the training, 
-validation, and test sets include live faces and all attacks.
+and diverse attacks pose more challenges to algorithm design. In addition, the Protocol 1.1 and Protocol 1.2 provide independent
+evaluations of the face forgery category, specifically focusing on advanced and digital subtypes, and Protocol 1.3 retains the standard distribution for all face forgery subtypes. As shown in Table-1, the training,  validation, and test sets include live faces and all attacks.
 
 (2) Protocol 2 evaluates the generalization ability to "unseen" attack types. The vast differences and unpredictability 
 between physical and digital attacks present challenges to algorithm portability. In this paper, we divide Protocol 2 
@@ -29,18 +31,27 @@ of unseen attack types. As shown in Table-1, the test set of Protocol 2.1 contai
 unseen in the training and development sets, while the test set of Protocol 2.2 contains only digital attacks unseen in 
 the training and development sets.
 
-               Table-1:Amount of three different protocols
-| Protocol | Class |# Live | # Phys | # Adv  | # Digital | # Total |
-|----------|-------|-------|--------|--------|-------    |---------|
-| P1       | train | 3000  | 1800   | 1800   | 1800      | 8400    |
-|          | dev   | 1500  | 900    | 1800   | 1800      | 6000    |
-|          | test  | 4500  | 2700   | 7106   | 7200      | 21506   |
-| P2.1     | train | 3000  | 0      | 9000   | 9000      | 21000   |
-|          | dev   | 1500  | 0      | 1706   | 1800      | 5006    |
-|          | test  | 4500  | 5400   | 0      | 0         | 9900    |
-| P2.2     | train | 3000  | 2700   | 0      | 0         | 5700    |
-|          | dev   | 1500  | 2700   | 0      | 0         | 4200    |
-|          | test  | 4500  | 0      | 10706  | 10800     | 26006   |
+               Table-1:Amount of six different protocols
+| Protocol | Class | # Live | # Phys | # Adv | # Digital | # Total |
+| :------: | :---: | :----: | :----: | :---: | :-------: | :-----: |
+|    P1    | train |  3000  |  1800  | 1800  |   1800    |  8400   |
+|          |  dev  |  1500  |  900   | 1800  |   1800    |  6000   |
+|          | test  |  4500  |  2700  | 7106  |   7200    |  21506  |
+|   P1.1   | train |  3000  |  1800  | 1200  |     0     |  6000   |
+|          |  dev  |  1500  |  900   |  300  |     0     |  2700   |
+|          | test  |  4500  |  2700  | 2606  |   5425    |  15231  |
+|   P1.2   | train |  3000  |  1800  |   0   |   1198    |  5998   |
+|          |  dev  |  1500  |  900   |   0   |    300    |  2700   |
+|          | test  |  4500  |  2700  | 5306  |   2725    |  15235  |
+|   P1.3   | train |  3000  |  1800  |  600  |    600    |  6000   |
+|          |  dev  |  1500  |  900   |  300  |    300    |  3000   |
+|          | test  |  4500  |  2700  | 3506  |   3625    |  14331  |
+|   P2.1   | train |  3000  |   0    | 9000  |   9000    |  21000  |
+|          |  dev  |  1500  |   0    | 1706  |   1800    |  5006   |
+|          | test  |  4500  |  5400  |   0   |     0     |  9900   |
+|   P2.2   | train |  3000  |  2700  |   0   |     0     |  5700   |
+|          |  dev  |  1500  |  2700  |   0   |     0     |  4200   |
+|          | test  |  4500  |   0    | 10706 |   10800   |  26006  |
 
 ========================================================================
 
@@ -58,10 +69,10 @@ Physical Attack     ----> 1
 Adversarial Attack  ----> 2
 
 Digital Attack      ----> 3
-```
+========================================================================
 
-### Acknowledgements
-```
+Conferences:
+
 @inproceedings{fang2024unified,
   title     = {Unified Physical-Digital Face Attack Detection},
   author    = {Fang, Hao and Liu, Ajian and Yuan, Haocheng and Zheng, Junze and Zeng, Dingheng and Liu, Yanhong and Deng, Jiankang and Escalera, Sergio and Liu, Xiaoming and Wan, Jun and Lei, Zhen},
@@ -69,15 +80,27 @@ Digital Attack      ----> 3
   year={2024}
 }
 
+Conferences:
+
 @article{yuan2024unified,
   title={Unified Physical-Digital Attack Detection Challenge},
   author={Yuan, Haocheng and Liu, Ajian and Zheng, Junze and Wan, Jun and Deng, Jiankang and Escalera, Sergio and Escalante, Hugo Jair and Guyon, Isabelle and Lei, Zhen},
   journal={CVPR Workshop},
   year={2024}
+
 }
-```
 
-### Contact
-Email: ajian.liu@ia.ac.cn
+Preprints:
+
+@article{li2025fa,
+  title={FA\textsuperscript{3}-CLIP: Frequency-Aware Cues Fusion and Attack-Agnostic Prompt Learning for Unified Face Attack Detection},
+  author={Li, Yongze and Li, Ning and Liu, Ajian and Ma, Hui and Yang, Liying and Chen, Xihong and Liang, Zhiyao and Liang, Yanyan and Wan, Jun and Lei, Zhen},
+  journal={arXiv preprint arXiv:2504.00454},
+  year={2025}
+}
+
+
+=======================================================================
+Email: ajian.liu@ia.ac.cn, ajianliu92@gmail.com
 Homepage: https://liuajian.github.io/
-
+Github: https://github.com/liuajian
