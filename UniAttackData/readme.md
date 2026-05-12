@@ -1,7 +1,5 @@
 =======================================================================
-Paper: 
-Unified Physical-Digital Face Attack Detection
-After decompressing the data, place them in a folder named Data.
+Unified Physical-Digital Face Attack Detection After decompressing the data, place them in a folder named Data.
 ========================================================================
 
 UniAttackData is an extension of CASIA-SURF CeFA, achieved through digital forgery. It encompasses
@@ -101,6 +99,8 @@ Preprints:
 
 
 =======================================================================
+
+
 Email: ajian.liu@ia.ac.cn, ajianliu92@gmail.com
 Homepage: https://liuajian.github.io/
 Github: https://github.com/liuajian
